@@ -14,3 +14,13 @@ def plataforma():
 ])
 def test_recuperacion(plataforma, usuario, metodo, codigo, esperado):
     assert plataforma.recuperar_cuenta(usuario, metodo, codigo) == esperado
+
+
+
+"""
+Simula el proceso de recuperación de cuenta en la plataforma bancaria, solicitando usuario,
+    método de recuperación y código de verificación.
+    
+Casos de uso cubiertos:
+- Validación de Recuperación de Cuenta en Plataforma Bancaria
+ """

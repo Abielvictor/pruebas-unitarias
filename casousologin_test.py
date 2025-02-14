@@ -18,4 +18,12 @@ def test_autenticacion(plataforma, usuario, biometria, codigo, esperado):
 
 
 
+    """
+     Valida el inicio de sesión verificando si el usuario existe, la autenticación biométrica es exitosa
+     y el código dinámico ingresado es correcto.
+        
+    Casos de uso cubiertos:
+    - Validación de Autenticación Multifactor (MFA) en Plataforma Bancaria
+    """
+
 
